@@ -18,5 +18,8 @@
   "homepage": "https://github.com/davidVetter/discordImageBot#readme",
   "dependencies": {
     "discord.js": "^14.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
   }
 }
