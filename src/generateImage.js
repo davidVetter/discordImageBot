@@ -9,7 +9,7 @@ async function generateImage(id, prompt) {
   const outputDir = `output/${id}`;
 
   await new Promise((resolve) => {
-    const options = ["--model", "SD-2.1", "--outdir", "output", prompt];
+    const options = ["--model", "SD-2.1", "--outdir", outputDir, prompt];
 
     const cmd = spawn("/Users/dvetter/miniconda3/bin/imagine", options);
 
