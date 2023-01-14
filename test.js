@@ -1,5 +1,5 @@
 const { generateImage } = require('./src/generateImage');
 
 (async () => {
-    await generateImage("a proud looking rottweiler and a dairy cow at the beach");
+    await generateImage('843048', "a proud AND tough rottweiler wearing large sunglasses with a {fantasy creature} {punk-style} {noun-fantasy}");
 })();
