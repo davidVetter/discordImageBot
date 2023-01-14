@@ -1,0 +1,19 @@
+{
+  "name": "discordimagebot",
+  "version": "1.0.0",
+  "description": "Discord AI Imagine Generation Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidVetter/discordImageBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidVetter/discordImageBot/issues"
+  },
+  "homepage": "https://github.com/davidVetter/discordImageBot#readme"
+}
