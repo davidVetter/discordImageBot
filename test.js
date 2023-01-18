@@ -1,6 +1,8 @@
 const { generateImage } = require('./didThisWork');
 const fs = require("node:fs");
 
+// This file is used for testing the generateImage function contained
+// the generateImage file for Windows, macOS, Linux (tested on Ubuntu)
 (async () => {
     await generateImage('75', "a rat wearing a nice red suit next standing with a {fantasy creature} highly detailed fantasy art {punk-style} {noun-fantasy} {hi-resolution}");
     const jpegs = fs

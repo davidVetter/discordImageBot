@@ -6,7 +6,7 @@ async function generateImage(id, prompt) {
 
   await new Promise((resolve) => {
     // prompt is the users input from discord
-    fs.writeFileSync('.\\testPrompt.txt', prompt);
+    fs.writeFileSync('.\\inputPrompt.txt', prompt);
 
     // start cmd and execute a script
     const cmd = spawn('cmd.exe', ['/c', 'invoke.bat']);
