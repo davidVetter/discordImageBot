@@ -43,9 +43,9 @@ function whatOs() {
   if (os === 'darwin') {
     generateImageFile = '/Users/Dvetter/Documents/codePlayground/discordImageBot/src/generateImage.js';
   } else if (os === 'linux') {
-    generateImageFile = '../src/linuxGenerateImage';
+    generateImageFile = './src/linuxGenerateImage';
   } else if ( os === 'win32') {
-    generateImageFile = '../src/generateImageWindows';
+    generateImageFile = '.\\src\\generateImageWindows.js';
   }
   console.log('this is generateImageFile: ', generateImageFile);
   return generateImageFile;
