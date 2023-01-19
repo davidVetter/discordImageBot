@@ -2,6 +2,6 @@
 @REM cd ..
 @REM cd ..
 @REM cd scripts
-python C:\Users\David\InvokeAI\scripts\invoke.py --from_file C:\Users\David\codePlayground\discordImageBot\testPrompt.txt
+python C:\Users\David\InvokeAI\scripts\invoke.py --from_file C:\Users\David\codePlayground\discordImageBot\inputPrompt.txt
 
 @REM rottweiler with a hat (high resolution) (high quality) (hyper realism) (insane detail)
