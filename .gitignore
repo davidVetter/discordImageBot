@@ -105,3 +105,6 @@ dist
 
 # tmp for ai generated images
 tmp/
+
+# txt file to user's input from discord
+inputPrompt.txt
