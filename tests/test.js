@@ -1,4 +1,4 @@
-const { generateImage } = require('./didThisWork');
+const { generateImage } = require('../didThisWork');
 const fs = require("node:fs");
 
 // This file is used for testing the generateImage function contained

@@ -11,7 +11,7 @@ async function generateImage(id, prompt) {
   await new Promise((resolve) => {
     // const options = ["--model", "SD-2.1", "--outdir", outputDir, prompt];
 
-    const cmd = execFile('/home/dvetter/playground/startInvokeAI.sh', { shell: '/bin/bash' });
+    const cmd = execFile('/home/dvetter/playground/discordImageBot/scripts/startInvokeAI.sh', { shell: '/bin/bash' });
 
     cmd.stderr.on("data", (data) => {
       console.log(`stderr: ${data}`);

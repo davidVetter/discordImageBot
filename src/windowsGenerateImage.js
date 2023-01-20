@@ -9,7 +9,7 @@ async function generateImage(id, prompt) {
     fs.writeFileSync('.\\inputPrompt.txt', prompt);
 
     // start cmd and execute a script
-    const cmd = spawn('cmd.exe', ['/c', 'invoke.bat']);
+    const cmd = spawn('cmd.exe', ['/c', '.\\scripts\\invoke.bat']);
 
     // listening on stdout for 'data' type
     cmd.stdout.on("data", (data) => {
